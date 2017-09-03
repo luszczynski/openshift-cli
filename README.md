@@ -123,6 +123,8 @@ Edit master-config.yaml
 ### Allow any container to run as root in your project
 `oc adm add-scc-to-user anyuid -z default -n <project>`
 
+---
+
 ## User
 
 ### View users
@@ -147,6 +149,8 @@ Edit master-config.yaml
 
 `oc delete identity <identity:user>`
 
+---
+
 ## Service Account
 
 ### Create service account
@@ -166,6 +170,8 @@ Edit master-config.yaml
 
 ### Add role/permission to a service account
 `oc adm police add-role-to-user <role> -z <service account> -n <project>`
+
+---
 
 ## ConfigMap
 
